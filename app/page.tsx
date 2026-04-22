@@ -245,7 +245,7 @@ const globalCSS = `
   .complaint-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .complaint-btn  { background: var(--bg3); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; text-align: left; cursor: pointer; transition: all .15s; position: relative; display: flex; flex-direction: column; gap: 2px; }
   .complaint-btn:hover   { border-color: var(--border2) }
-  .complaint-btn.selected{ border-color: var(--accent); background: oklch(17% 0.05 165); }
+  .complaint-btn.selected{ border-color: var(--accent); }
   .complaint-btn.critical{ border-left: 3px solid #FF3B30; }
   .complaint-btn.lagos   { border-left: 3px solid #FF9500; }
   .complaint-cat  { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
