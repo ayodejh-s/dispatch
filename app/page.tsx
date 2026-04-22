@@ -114,15 +114,16 @@ const globalCSS = `
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+
   :root {
-    --bg:        oklch(11% 0.015 240);
-    --bg2:       oklch(15% 0.015 240);
-    --bg3:       oklch(19% 0.015 240);
-    --border:    oklch(26% 0.015 240);
+    --bg:        oklch(100% 0.00011 271.152);
+    --bg2:       oklch(95.371% 0.00526 248.352);
+    --bg3:       #f5f5f5;
+    --border:    oklch(90.736% 0.02655 242.876);
     --border2:   oklch(32% 0.015 240);
-    --text:      oklch(92% 0.008 240);
-    --muted:     oklch(56% 0.010 240);
-    --accent:    oklch(68% 0.18 165);
+    --text:      oklch(27.108% 0.00348 229.266);
+    --muted:     oklch(22.472% 0.00364 229.242);
+    --accent:    #ff2b2b;;
     --font-ui:   'IBM Plex Sans', sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
   }
@@ -240,10 +241,10 @@ const globalCSS = `
   .complaint-controls { margin-bottom: 16px; display: flex; flex-direction: column; gap: 10px; }
   .cat-tabs   { display: flex; gap: 6px; flex-wrap: wrap; }
   .cat-tab    { background: var(--bg3); border: 1px solid var(--border); border-radius: 4px; padding: 5px 12px; font-size: 12px; color: var(--muted); cursor: pointer; transition: all .15s; }
-  .cat-tab.active { border-color: var(--accent); color: var(--accent); background: oklch(17% 0.05 165); }
+  .cat-tab.active { border-color: var(--accent); color: var(--accent)}
   .complaint-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .complaint-btn  { background: var(--bg3); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; text-align: left; cursor: pointer; transition: all .15s; position: relative; display: flex; flex-direction: column; gap: 2px; }
-  .complaint-btn:hover   { border-color: var(--border2); background: oklch(21% 0.015 240); }
+  .complaint-btn:hover   { border-color: var(--border2) }
   .complaint-btn.selected{ border-color: var(--accent); background: oklch(17% 0.05 165); }
   .complaint-btn.critical{ border-left: 3px solid #FF3B30; }
   .complaint-btn.lagos   { border-left: 3px solid #FF9500; }
