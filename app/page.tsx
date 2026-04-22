@@ -1550,7 +1550,7 @@ export default function App() {
       <div className="app">
         <div className="topbar">
           <div className="topbar-left">
-            <div className="brand">LAGOS EMS</div>
+            <div className="brand">LASAMBUS</div>
             <div className="dashboard-mode">DISPATCH CONSOLE</div>
           </div>
           <div className="topbar-right">
