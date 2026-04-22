@@ -883,7 +883,7 @@ function TopBar({ incidentId, timer, step, operatorId }: { incidentId: string; t
   return (
     <div className="topbar">
       <div className="topbar-left">
-        <div className="brand">LAGOS EMS</div>
+        <div className="brand">LASAMBUS</div>
         <div className="incident-id">{incidentId}</div>
         <div className="call-active"><span className="pulse-dot" />CALL ACTIVE</div>
       </div>
